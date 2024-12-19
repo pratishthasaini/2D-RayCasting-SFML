@@ -73,8 +73,7 @@ void drawRay(sf::RenderWindow& window, const sf::Vector2f& origin) {
         ray[1].color = sf::Color(255, 255, 255);
    
         for (int i=0; i <=wallArray.size() - 4; i += 4) {
-            sf::Vector2f intersectionCordinates = intersection( origin, ray[1].position,
-                                                                {wallArray[i], wallArray[i+1]}, {wallArray[i+2], wallArray[i+3]});
+            sf::Vector2f intersectionCordinates = intersection( origin, ray[1].position, {wallArray[i], wallArray[i+1]}, {wallArray[i+2], wallArray[i+3]});
             
             if (intersectionCordinates.x != -1 && intersectionCordinates.y != -1) {
                 // we need to only draw the line till intersection cordinates
