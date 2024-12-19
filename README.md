@@ -1,6 +1,9 @@
 # Ray Casting Visualizer with SFML and C++
 
 ![Ray Casting Visualizer Demo](Assets/rayCastingImage.png)
+![Ray Casting Visualizer Demo](Assets/rayCastingImage1.png)
+![Ray Casting Visualizer Demo](Assets/rayCastingImage2.png)
+![Ray Casting Visualizer Demo](Assets/rayCastingImage3.png)
 
 ## Overview
 
